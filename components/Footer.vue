@@ -10,37 +10,29 @@
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                 </a> -->
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div class="grid grid-cols-2 gap-8">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <ul class="text-gray-500">
                         <li class="mb-4">
-                            <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                            <NuxtLink to="/">Home</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/who-we-are">Who we are</NuxtLink>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
-                        </li>
-                        <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                            <NuxtLink to="/our-impact">Our impact</NuxtLink>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <ul class="text-gray-500">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Cecylian Whitehouse, 12 Kayode Abraham Street, Off Ligali Ayorinde Street, Victoria Island, Lagos State, Nigeria.</a>
+                            <p>Cecylian Whitehouse, 12 Kayode Abraham Street, Off Ligali Ayorinde Street, Victoria Island, Lagos State, Nigeria.</p>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">0913 105 8071</a>
+                            <a href="tel:+09131058071">0913 105 8071</a>
                         </li>
                     </ul>
                 </div>

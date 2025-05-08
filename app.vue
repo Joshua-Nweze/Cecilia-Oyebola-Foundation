@@ -2,7 +2,7 @@
   <div>
     <NuxtLayout>
             <Nav />
-            <div>
+            <div class="mt-20">
                 <NuxtPage />
             </div>
             <SharedPurpose />

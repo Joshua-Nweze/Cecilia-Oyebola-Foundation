@@ -19,12 +19,14 @@
             </div>
         </div>
 
+        <Test />
+
         <div class="lg:px-30 grid gap-20">
             <div class="grid lg:grid-cols-2 gap-5">
                 <div class="relative">
-                    <img class="w-[80%] absolute top-10" src="https://images.unsplash.com/photo-1726549384638-e530b978ac3e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                    <img class="w-1/2 absolute top-1 right-1" src="https://images.unsplash.com/photo-1735615479490-237b941e996a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                    <img class="w-1/2 absolute top-60 right-1" src="https://images.unsplash.com/photo-1734623044490-4bf667aafade?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <img class="w-[80%] shadow-xl absolute top-10" src="https://images.unsplash.com/photo-1726549384638-e530b978ac3e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <img class="w-1/2 shadow-xl absolute top-1 right-1" src="https://images.unsplash.com/photo-1735615479490-237b941e996a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <img class="w-1/2 shadow-xl absolute top-60 right-1" src="https://images.unsplash.com/photo-1734623044490-4bf667aafade?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                 </div>
                 <div>
                     <h3 class="mt-2 text-3xl font-semibold tracking-tight text-pretty text-gray-900">Who we are</h3>
@@ -100,3 +102,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+img {
+    box-shadow: 10px;
+}
+</style>
