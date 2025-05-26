@@ -23,6 +23,7 @@ export default defineNuxtConfig({
                     rel: "stylesheet",
                     href: "https://unpkg.com/@videojs/themes@1/dist/city/index.css",
                 },
+                { rel: 'icon', type: 'image/x-icon', href: '/images/cecy-foundation-logo.png' },
             ],
             script: [
                 {
