@@ -19,13 +19,13 @@
       <div class="absolute top-1/2 -translate-y-1/2 w-full flex justify-between ">
         <button
           @click="prev"
-          class="bg-gray-800/50 hover:bg-gray-800 text-white p-2 rounded-full h-10 w-10"
+          class="bg-gray-800/50 hover:bg-gray-800 text-white p-2 rounded-full h-10 w-10 cursor-pointer"
         >
           ‹
         </button>
         <button
           @click="next"
-          class="bg-gray-800/50 hover:bg-gray-800 text-white p-2 rounded-full h-10 w-10"
+          class="bg-gray-800/50 hover:bg-gray-800 text-white p-2 rounded-full h-10 w-10 cursor-pointer"
         >
           ›
         </button>

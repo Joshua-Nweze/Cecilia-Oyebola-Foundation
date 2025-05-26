@@ -1,7 +1,33 @@
 @import "tailwindcss";
 
 :root {
-    --primary-colour: #075985
+    --cecy-found-yellow: #f9b844;
+    --cecy-found-blue: #4a5eb9;
+}
+
+@font-face {
+    font-family: satya;
+    src: url(/font/SatyaVoyanceDemoRegular.ttf);
+    font-style: normal
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.font-satya {
+    font-family: 'satya';
+}
+
+.header {
+    color: var(--cecy-found-blue);
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'satya';
+}
+
+p {
+    font-size: 20px;
 }
 
 button {
