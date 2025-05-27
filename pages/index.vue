@@ -1,51 +1,44 @@
 <template>
     <div class="grid gap-20">
         <!-- hero -->
-        <div class="relative isolate  overflow-hidden bg-white py-16">
+        <div class="lg:relative isolate overflow-hidden bg-white py-16">
             <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
                 <div class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
             </div>
-            <div class="mx-auto ">
-                <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div class="mx-auto grid md:grid-cols-1 px-5 lg:px-0">
+                <div class="mx-auto grid lg:max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div class="lg:pt-4 lg:pr-8 lg:pl-30">
                         <div class="h-full flex flex-col justify-center lg:max-w-lg">
-                        <h2 class="mt-2 text-5xl font-semibold tracking-tight text-pretty text-gray-900 font-satya">Empowering lives</h2>
-                        <h2 class="mt-2 text-5xl font-semibold tracking-tight text-pretty text-gray-900 font-satya">Empowering communities</h2>
-                        <p class="mt-6 text-lg/8 text-gray-600">Access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.</p>
-                        <div class="mt-8">
-                            <NuxtLink to="/who-we-are">
-                                <PrimaryBtn>Who we are</PrimaryBtn>
-                            </NuxtLink>
-                        </div>
+                            <h2 class="mt-2 text-4xl md:text-5xl font-semibold tracking-tight text-pretty text-gray-900 font-satya">Empowering lives</h2>
+                            <h2 class="mt-2 text-4xl md:text-5xl font-semibold tracking-tight text-pretty text-gray-900 font-satya">Empowering communities</h2>
+                            <p class="mt-6 text-lg/8 text-gray-600">Access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.</p>
+                            <div class="mt-8">
+                                <NuxtLink to="/who-we-are">
+                                    <PrimaryBtn>Who we are</PrimaryBtn>
+                                </NuxtLink>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <VideoPlayer
+                            class="w-full lg:w-[48rem] h-[500px] overflow-hidden max-w-none rounded-lg lg:rounded-none lg:rounded-l-lg shadow-xl ring-1 ring-gray-400/10" 
+                            video-src="/video/Cecy-foundation hero video.mp4" 
+                        />
+                        <!-- 
+                                                <VideoPlayer
                             class="w-[48rem] h-[500px] overflow-hidden max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" 
                             video-poster="/images/cecy-foundation-logo-dark-bg.png" 
                             video-src="/video/Cecy-foundation hero video.mp4" 
-                            />
-                          <!-- <div class="video-wrapper" @click="togglePlay">
-    <video ref="video" class="video" :src="videoSrc" />
-    <button
-      v-if="!isPlaying"
-      class="play-button"
-      @click.stop="togglePlay"
-      aria-label="Play"
-    >
-      ▶
-    </button>
-  </div> -->
-  <!-- <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442"> -->
+                            /> -->
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="lg:px-30 grid gap-20">
+        <div class="lg:px-30 px-5 grid gap-20 ">
             <div class="grid lg:grid-cols-2 gap-10 items-center">
                 <div>
-                    <img class="shadow-xl rounded-lg" src="/images/cecy-found-3.jpg" alt="">
+                    <img class="shadow-xl rounded-lg lg:w-full" src="/images/cecy-found-3.jpg" alt="">
                 </div>
                 <div>
                     <h3 class="mt-2 header">Who we are</h3>
@@ -79,9 +72,9 @@
     
         </div>
         
-        <div>
+        <div class="px-5 mb-10 md:mb-0">
             <div class="header text-center">Goals and Mission</div>
-            <TestimonyCarousel class="w-full" />
+            <TestimonyCarousel class="mt-10"  />
         </div>
 
     </div>

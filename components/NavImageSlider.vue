@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 gap-10 w-full px-10">
+  <div class="grid lg:grid-cols-2 gap-10 w-full px-10">
     <!-- Vertical Marquee: Normal Direction -->
     <div class="logos_marquee_vertical">
       <div class="marquee_logos_vertical">
@@ -16,7 +16,7 @@
     </div>
 
     <!-- Vertical Marquee: Reverse Direction -->
-    <div class="logos_marquee_vertical mt-10">
+    <div class="logos_marquee_vertical mt-10 hidden lg:block">
       <div class="marquee_logos_vertical_reverse">
         <template v-for="n in 2">
           <img

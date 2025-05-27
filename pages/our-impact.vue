@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-10 mx-auto px-4 py-10 lg:px-30">
+    <div class="grid gap-10 mx-auto px-5 py-10 lg:px-30">
         <!-- <div class="text-center">
             <div class="grid lg:grid-cols-3 h-[80vh]">
                 <div class="text-start flex flex-col justify-end pb-5 px-4 border-b-2 border-gray-300 lg:col-span-1">
@@ -26,7 +26,7 @@
                         <p>At Cecilia Oyebola Foundation, every initiative we undertake is driven by our mission to create meaningful change in the lives of women, children, and the elderly. Over the years, our programs have reached thousands of individuals, transforming communities and fostering a brighter future.</p>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-10 mt-10">
+                    <div class="grid lg:grid-cols-2 gap-10 mt-10">
                         <div class="grid gap-5">
                             <div>
                                 <div class="text-[var(--cecy-found-blue)] text-xl font-bold">10,000+ Educational Materials Distributed</div>
@@ -52,11 +52,11 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-10 mt-10">
-                        <div>
+                    <div class="grid lg:grid-cols-2 gap-10 items-center mt-10">
+                        <div class="order-2 md:order-1">
                             <img src="/images/cecy-found-1.jpg" class="rounded-lg" alt="">
                         </div>
-                        <div class="grid gap-5">
+                        <div class="order-1 md:order-2 grid gap-5">
                             <div>
                                 <p class="text-[var(--cecy-found-blue)] text-xl font-bold">50+ Healthcare Outreaches Conducted</p>
             
@@ -85,7 +85,7 @@
                     <p class="text-2xl">Witness a visual journey of our initiatives and the lasting impact they create in the lives of those we serve.</p>
                     <div>
                         <div class="py-10 lg:py-14 mx-auto">
-                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
                                 <div class="space-y-2">
                                     <img class="w-full h-auto object-cover rounded-lg" src="/images/slider/cecy-found-1.jpg" alt="impact image">
                                     <img class="w-full h-auto object-cover rounded-lg" src="/images/cecy-found-2.jpg" alt="impact image">

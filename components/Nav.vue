@@ -2,7 +2,7 @@
     <header
         class="text-gray-400 bg-gray-900 body-font fixed z-[999] top-0 left-0 right-0 w-full"
     >
-        <div class="grid grid-cols-2 items-center lg:px-30 py-2">
+        <div class="grid grid-cols-2 items-center lg:px-30 px-2 py-2">
             <!-- Logo -->
             <NuxtLink to="/" class="w-fit">
                 <img
@@ -12,7 +12,7 @@
                 />
             </NuxtLink>
 
-            <!-- Hamburger icon (now visible on all screens) -->
+            <!-- Hamburger icon -->
             <button
                 class="justify-self-end cursor-pointer p-3"
                 @click="isMenuOpen = true"
@@ -40,7 +40,7 @@
                 class="fixed inset-0 bg-gray-900 text-white space-y-8 z-50 transition-all duration-500"
             >
                 <button
-                    class="absolute top-6 lg:right-30 cursor-pointer p-3 border z-50 group rounded-full hover:bg-white hover:text-black"
+                    class="absolute top-6 right-2 lg:right-30 cursor-pointer p-3 border z-50 group rounded-full hover:bg-white hover:text-black"
                     @click="isMenuOpen = false"
                 >
                     <svg
@@ -58,12 +58,15 @@
                     </svg>
                 </button>
 
-                <div class="grid grid-cols-2 lg:ps-30">
-                    <div class="flex flex-col justify-center space-y-6">
+                <div class="grid md:grid-cols-2 lg:ps-30">
+                    <div class="flex flex-col justify-center space-y-6 h-screen p-10 lg:p-0">
+                        <div class="">
+                            <img src="/images/cecy-foundation-logo.png" class="w-[40%] lg:w-[20%]" alt="">
+                        </div>
                         <NuxtLink
                           @click="isMenuOpen = false"
                           to="/"
-                          class="lg:text-3xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
+                          class="lg:text-3xl text-2xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">01</span>
@@ -74,7 +77,7 @@
                         <NuxtLink
                           @click="isMenuOpen = false"
                           to="/who-we-are"
-                          class="lg:text-3xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
+                          class="lg:text-3xl text-2xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">02</span>
@@ -85,7 +88,7 @@
                         <NuxtLink
                           @click="isMenuOpen = false"
                           to="/our-impact"
-                          class="lg:text-3xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
+                          class="lg:text-3xl text-2xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">03</span>
@@ -95,7 +98,7 @@
                         <!-- <SecondaryBtn @click="isMenuOpen = false">Partner with us</SecondaryBtn> -->
                     </div>
 
-                    <div>
+                    <div class="hidden md:block">
                         <NavImageSlider />
                     </div>
                 </div>
@@ -113,7 +116,7 @@ const isMenuOpen = ref(false);
 <style scoped>
 .slide-down-enter-active,
 .slide-down-leave-active {
-  transition: all 0.4s ease-in;
+  transition: all 0.4s ease;
 }
 
 .slide-down-enter-from {

@@ -1,7 +1,6 @@
 <template>
-    <div class="logos_marquee">
+    <div class="logos_marquee w-[90vw] md:w-[95vw] lg:w-full">
         <div class="marquee_logos">
-            hehe
             <template v-for="n in 2">
                 <img
                     v-for="(image, index) in images"

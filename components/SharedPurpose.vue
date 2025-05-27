@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-white">
-        <div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
+    <div>
+        <div class="mx-auto max-w-7xl md:py-20 sm:px-6 lg:px-8">
             <div
-                class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0"
+                class="relative isolate overflow-hidden bg-gray-900 px-6 shadow-2xl sm:rounded-3xl sm:px-16 pt-6 md:pt-10 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0"
             >
                 <svg
                     viewBox="0 0 1024 1024"
@@ -33,7 +33,7 @@
                     >
                         A Shared Purpose
                     </h2>
-                    <div class="grid lg:grid-cols-2 gap-4 items-center mt-10">
+                    <div class="grid lg:grid-cols-2 gap-4 items-center my-10">
                         <div>
                             <p class="mt-6 text-lg/8 text-pretty text-gray-300">
                                 At Cecilia Oyebola Foundation, our work is

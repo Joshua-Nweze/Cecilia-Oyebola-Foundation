@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-10 mx-auto px-4 py-10 lg:px-30">
+    <div class="grid gap-10 mx-auto px-5 py-10 lg:px-30">
         <!-- <div class="text-center">
             <div class="grid lg:grid-cols-3 h-[80vh]">
                 <div class="text-start flex flex-col justify-end pb-5 px-4 border-b-2 border-gray-300 lg:col-span-1">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="mt-10">
-            <div class="grid lg:grid-cols-2 items-center gap-10">
+            <div class="grid lg:grid-cols-2 items-center gap-10 items-center">
                 <div class="grid gap-5 text-lg">
                     <p>The Cecilia Oyebola Foundation was established on July 14th, 2013, by Dr. Yomi Jaye, the CEO and Founder of Cecy Health Consult Ltd. The foundation emerged as an extension of Cecy Health, born from a profound commitment to continuing the legacy of Cecilia Oyebola Abebi Durojaye, the beloved matriarch after her passing.</p>
         
@@ -34,16 +34,16 @@
                 </div>
 
                 <div>
-                    <img src="/images/foundation.png" class="rounded-lg" alt="">
+                    <img src="/images/foundation.png" class="rounded-lg w-full" alt="">
                 </div>
             </div>
 
             <div class="mt-10">
                 <div class="grid lg:grid-cols-2 items-center gap-10">
-                    <div>
+                    <div class="order-2 lg:order-1">
                         <img src="/images/cecy-found-10.jpg" class="w-full rounded-lg"  alt="">
                     </div>
-                    <div class="grid gap-5 text-lg">
+                    <div class="order-1 l;g:order-2 grid gap-5 text-lg">
                         <p>The story behind the creation of the Cecilia Oyebola Foundation carries a powerful lesson about turning grief into purpose. After losing his mother, who had been the guiding force behind his career, Dr. Yomi Jaye was devastated. But a moment of reflection, inspired by a quote from Tony Robbins—“Everything in life is about energy, and we have the power to switch from one form of energy to another”—changed his perspective.</p>
 
                         <p>Rather than staying in sorrow, Dr. Yomi chose to redirect his emotions into something meaningful. He decided to create a foundation that would support women, children, and the girl child—empowering those facing struggles similar to what his mother had endured. Through this decision, Dr. Yomi realized that by transforming personal pain into positive change, he could make a lasting impact on others, just as his mother had made a lasting impact on him. His journey shows that even in the face of profound loss, one can find a way to uplift others, building a legacy of hope, empowerment, and transformation. </p>
